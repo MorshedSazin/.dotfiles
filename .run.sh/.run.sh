@@ -1,0 +1,1 @@
+/home/froggy/.dotfiles/.run.sh
