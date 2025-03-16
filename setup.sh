@@ -10,3 +10,4 @@ ln -s ~/.dotfiles/.run.sh.cp ~/.run.sh.cp
 ln -s ~/.dotfiles/.nvim ~/.config/nvim
 
 git clone https://github.com/ohmybash/oh-my-bash.git ~/.oh-my-bash
+git clone https://github.com/tmux-plugins/tpm ~/.dotfiles/.tmux/plugins/tpm
