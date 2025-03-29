@@ -18,5 +18,5 @@
 #git clone https://github.com/ohmybash/oh-my-bash.git ~/.oh-my-bash
 
 # for oh-my-zsh 
-#git clone https://github.com/tmux-plugins/tpm ~/.dotfiles/.tmux/plugins/tpm
+#git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
 #cd ~/ && wget https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh && sh install.sh
