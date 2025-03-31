@@ -30,7 +30,10 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
 #aliases
-alias yta="yt-dlp -x --audio-format mp3"
+alias yta='yt-dlp -x --audio-format mp3'
+alias ins='sudo pacman -S'
+alias update='sudo pacman -Syyu'
+alias ims='micro $(fzf -m --preview="bat --color=always {}")'
 
 
 # Path to your oh-my-bash installation.
