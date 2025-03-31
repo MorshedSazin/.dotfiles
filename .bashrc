@@ -7,6 +7,30 @@ esac
 # cow log at the top
 #source /home/froggy/.cow.sh
 
+# C/C++ runner bash script.
+export PATH=$PATH:$HOME:/home/froggy/.run.sh/
+export PATH=$PATH:$HOME:/home/froggy/.lab.sh/
+
+#flutter sdk path
+export PATH=$PATH:/home/froggy/.fluttterSetup/flutter/bin
+export PATH="$HOME/development/flutter/bin:$PATH"
+
+#android sdk and ADV device path
+export PATH="$PATH:/home/froggy/.android"
+
+#Flutterfire
+export PATH=$PATH:/home/froggy/.pub-cache/bin/
+#source ~/.bashrc
+
+#deepseek
+export PATH=$PATH:$HOME:/home/froggy/
+
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+
+#aliases
+alias yta="yt-dlp -x --audio-format mp3"
 
 
 # Path to your oh-my-bash installation.
@@ -148,24 +172,3 @@ source "$OSH"/oh-my-bash.sh
 # alias bashconfig="mate ~/.bashrc"
 # alias ohmybash="mate ~/.oh-my-bash"
 
-# C/C++ runner bash script.
-export PATH=$PATH:$HOME:/home/froggy/.run.sh/
-export PATH=$PATH:$HOME:/home/froggy/.lab.sh/
-
-#flutter sdk path
-export PATH=$PATH:/home/froggy/.fluttterSetup/flutter/bin
-export PATH="$HOME/development/flutter/bin:$PATH"
-
-#android sdk and ADV device path
-export PATH="$PATH:/home/froggy/.android"
-
-#Flutterfire
-export PATH=$PATH:/home/froggy/.pub-cache/bin/
-#source ~/.bashrc
-
-#deepseek
-export PATH=$PATH:$HOME:/home/froggy/
-
-export NVM_DIR="$HOME/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
-[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion

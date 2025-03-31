@@ -2,7 +2,7 @@
 
 #installing all the necessery packeges.
 #source ./.pkg.debian.sh
-#source ./.pkg.sh
+#source ./.pkg.arch.sh
 
 #---------------------------------------------------
 #linking all the nessecery files for the envirment

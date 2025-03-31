@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # List of packages to install
-packages=(neovim tmux micro code ranger wget curl xclip git vlc firefox)
+packages=(neovim tmux micro code yt-dlp ranger wget curl xclip git vlc firefox)
 
 # Loop through each package
 for pkg in "${packages[@]}"; do
