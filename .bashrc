@@ -35,12 +35,12 @@ alias ins='sudo pacman -S'
 alias update='sudo pacman -Syyu'
 alias ims='micro $(fzf -m --preview="bat --color=always {}")'
 
-
 # Path to your oh-my-bash installation.
 export OSH='/home/arch/.oh-my-bash'
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-bash is loaded.
-OSH_THEME="bobby"
+OSH_THEME="cupcake"
+#OSH_THEME="absimple"
 #OSH_THEME="ys"
 
 # If you set OSH_THEME to "random", you can ignore themes you don't like.
