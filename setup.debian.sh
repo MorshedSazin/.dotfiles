@@ -2,7 +2,6 @@
 
 #installing all the necessery packeges.
 source ./.pkg.debian.sh
-
 #---------------------------------------------------
 #linking all the nessecery files for the envirment
 ln -s ~/.dotfiles/.tmux.conf ~/.tmux.conf
