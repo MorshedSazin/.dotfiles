@@ -36,7 +36,7 @@ ln -s ~/.dotfiles/.run.sh.cp ~/.run.sh.cp
 ln -s ~/.dotfiles/.run.sh ~/.run.sh
 
 #Nerd_3270 fonts
-cp ~/.dotfiles/.Nerd_3270/*.ttf /usr/share/fonts/TTF/
+#cp ~/.dotfiles/.Nerd_3270/*.ttf /usr/share/fonts/TTF/
 #---------------------------------------------------
 
 

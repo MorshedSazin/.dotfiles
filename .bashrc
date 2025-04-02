@@ -1,7 +1,7 @@
 # Enable the subsequent settings only in interactive sessions
 case $- in
-  *i*) ;;
-    *) return;;
+*i*) ;;
+*) return ;;
 esac
 
 # cow log at the top
@@ -26,14 +26,16 @@ export PATH=$PATH:/home/froggy/.pub-cache/bin/
 export PATH=$PATH:$HOME:/home/froggy/
 
 export NVM_DIR="$HOME/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
-[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"                   # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion" # This loads nvm bash_completion
 
 #aliases
 alias yta='yt-dlp -x --audio-format mp3'
 alias ins='sudo pacman -S'
 alias update='sudo pacman -Syyu'
 alias ims='micro $(fzf -m --preview="bat --color=always {}")'
+alias le='cd /mnt/disk/code/cp/leetcode/ && nvim .'
+alias lr='cd /mnt/disk/code/cp/leedcode/'
 
 # Path to your oh-my-bash installation.
 export OSH='/home/arch/.oh-my-bash'
@@ -47,7 +49,7 @@ OSH_THEME="cupcake"
 # OMB_THEME_RANDOM_IGNORED=("powerbash10k" "wanelo")
 
 # Uncomment the following line to use case-sensitive completion.
- OMB_CASE_SENSITIVE="true"
+OMB_CASE_SENSITIVE="true"
 
 # Uncomment the following line to use hyphen-insensitive completion. Case
 # sensitive completion must be off. _ and - will be interchangeable.
@@ -174,4 +176,3 @@ source "$OSH"/oh-my-bash.sh
 # Example aliases
 # alias bashconfig="mate ~/.bashrc"
 # alias ohmybash="mate ~/.oh-my-bash"
-
