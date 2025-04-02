@@ -24,17 +24,19 @@ cd ~/ && wget https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/ins
 ln -s ~/.dotfiles/.zshrc ~/.zshrc
 
 #-->tmux
-mv -r ~/.tmux.conf ~/.tmux.conf_bac
+mv ~/.tmux.conf ~/.tmux.conf_bac
 git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
 ln -s ~/.dotfiles/.tmux.conf ~/.tmux.conf
 
 #-->nvim
-mv -r ~/.config/nvim  ~/.config/nvim_bac
+mv ~/.config/nvim  ~/.config/nvim_bac
 ln -s ~/.dotfiles/.nvim ~/.config/nvim
 
 ln -s ~/.dotfiles/.run.sh.cp ~/.run.sh.cp
 ln -s ~/.dotfiles/.run.sh ~/.run.sh
 
+#Nerd_3270 fonts
+cp ~/.dotfiles/.Nerd_3270/*.ttf /usr/share/fonts/TTF/
 #---------------------------------------------------
 
 
