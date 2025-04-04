@@ -41,7 +41,7 @@ alias lr='cd /mnt/disk/code/cp/leedcode/'
 export OSH='/home/arch/.oh-my-bash'
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-bash is loaded.
-OSH_THEME="cupcake"
+OSH_THEME="nekolight"
 #OSH_THEME="absimple"
 #OSH_THEME="ys"
 
