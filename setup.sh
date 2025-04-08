@@ -75,5 +75,5 @@ if [ "$shell_name" = "zsh" ]; then
   ln -s ~/.dotfiles/.run.sh ~/.run.sh
 
   # Nerd_3270 fonts
-  # cp ~/.dotfiles/.Nerd_3270/*.ttf /usr/share/fonts/TTF/
+  sudo cp -rf ~/.dotfiles/.Nerd_3270/ /usr/share/fonts/truetype/
 fi
