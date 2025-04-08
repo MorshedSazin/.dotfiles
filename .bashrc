@@ -33,7 +33,7 @@ export NVM_DIR="$HOME/.nvm"
 alias yta='yt-dlp -x --audio-format mp3'
 alias ins='sudo pacman -S'
 alias update='sudo pacman -Syyu'
-alias ims='micro $(fzf -m --preview="bat --color=always {}")'
+alias f='nvim $(fzf -m --preview="bat --color=always {}")'
 alias le='cd /mnt/disk/code/cp/leetcode/ && nvim .'
 alias lr='cd /mnt/disk/code/cp/leedcode/'
 
