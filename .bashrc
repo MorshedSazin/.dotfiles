@@ -8,22 +8,17 @@ esac
 #source /home/froggy/.cow.sh
 
 # C/C++ runner bash script.
-export PATH=$PATH:$HOME:/home/froggy/.run.sh/
-export PATH=$PATH:$HOME:/home/froggy/.lab.sh/
+export PATH=$PATH:$HOME:~/.run.sh/
 
 #flutter sdk path
 export PATH=$PATH:/home/froggy/.fluttterSetup/flutter/bin
 export PATH="$HOME/development/flutter/bin:$PATH"
 
 #android sdk and ADV device path
-export PATH="$PATH:/home/froggy/.android"
+#export PATH="$PATH:/home/froggy/.android"
 
 #Flutterfire
-export PATH=$PATH:/home/froggy/.pub-cache/bin/
-#source ~/.bashrc
-
-#deepseek
-export PATH=$PATH:$HOME:/home/froggy/
+#export PATH=$PATH:/home/froggy/.pub-cache/bin/
 
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"                   # This loads nvm
@@ -174,5 +169,5 @@ source "$OSH"/oh-my-bash.sh
 # For a full list of active aliases, run `alias`.
 #
 # Example aliases
-# alias bashconfig="mate ~/.bashrc"
+#alias bashconfig="mate ~/.bashrc"
 # alias ohmybash="mate ~/.oh-my-bash"
