@@ -31,6 +31,7 @@ alias update='sudo pacman -Syyu'
 alias f='nvim $(fzf -m --preview="bat --color=always {}")'
 alias le='cd /mnt/disk/code/cp/leetcode/ && nvim .'
 alias lr='cd /mnt/disk/code/cp/leedcode/'
+alias cc='cpb clone'
 
 # Path to your oh-my-bash installation.
 export OSH='/home/arch/.oh-my-bash'

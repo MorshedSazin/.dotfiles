@@ -2,9 +2,8 @@
 # installing all the necessary packages.
 
 shell_name=$(basename "$SHELL")
-
 if command -v pacman >/dev/null; then
-  packages=(neovim tmux micro git bat fzf code yt-dlp ranger wget curl xclip vlc firefox)
+  packages=(neovim tmux micro git bat fzf code yt-dlp ranger wget curl xclip vlc firefox npm)
   # Loop through each package
   for pkg in "${packages[@]}"; do
     if pacman -Q "$pkg" &>/dev/null; then
@@ -14,7 +13,10 @@ if command -v pacman >/dev/null; then
       sudo pacman -S --noconfirm "$pkg"
     fi
   done
-  echo "All packages processed."
+  #installing cpbooster
+  sudo npm install cpbooster -g
+
+  echo "all packages processed."
 
 elif command -v apt >/dev/null; then
   packages=(neovim tmux micro git bat fzf code yt-dlp ranger wget curl xclip vlc firefox)
@@ -28,6 +30,9 @@ elif command -v apt >/dev/null; then
       sudo apt-get install -y "$pkg"
     fi
   done
+  #installing cpbooster
+  sudo npm install cpbooster -g
+
   echo "All packages processed."
 fi
 
