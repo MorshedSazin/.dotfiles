@@ -1,1 +1,1 @@
-/home/froggy/.dotfiles/.run.sh
+/home/arch/.dotfiles/nvim/.run.sh
